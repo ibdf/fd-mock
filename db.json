@@ -1,0 +1,351 @@
+{ 
+  "users": [
+    {
+      "id": 1,
+      "username": "iamjohn",
+      "password": "smithy",
+      "profile": {
+        "firstName": "John",
+        "lastName": "Smith",
+        "middleInitial": "",
+        "suffix": "",
+        "filerStatus": "",
+        "positions": [
+          {
+            "position": "",
+            "agency": "",
+            "affiliationStatus": "",
+            "profession": "",
+            "address": "",
+            "phone": "",
+            "city": "",
+            "state": "",
+            "zipCode": "",
+            "primary": ""
+          }
+        ]
+      },
+      "type": "filer",
+      "filedForms": [
+        {
+          "id": 0,
+          "amendment": false,
+          "form": "city",
+          "method": "",
+          "status": "not-started",
+          "submittedOn": "",
+          "year": 2018
+        },
+        {
+          "id": 8,
+          "amendment": false,
+          "form": "state",
+          "method": "",
+          "status": "not-started",
+          "submittedOn": "",
+          "year": 2018
+        },
+          {
+          "id": 9,
+          "amendment": false,
+          "form": "mayor",
+          "method": "",
+          "status": "not-started",
+          "submittedOn": "",
+          "year": 2018
+        },
+        {
+          "id": 1,
+          "amendment": false,
+          "form": "city",
+          "method": "online",
+          "status": "completed",
+          "submittedOn": "20171203",
+          "year": 2017
+        },
+        {
+          "id": 2,
+          "amendment": false,
+          "form": "state",
+          "method": "online",
+          "status": "completed",
+          "submittedOn": "20161203",
+          "year": 2016
+        },
+        {
+          "id": 3,
+          "amendment": false,
+          "form": "mayor",
+          "method": "online",
+          "status": "completed",
+          "submittedOn": "20151203",
+          "year": 2015
+        },
+        {
+          "id": 4,
+          "amendment": false,
+          "form": "mayor",
+          "method": "online",
+          "status": "completed",
+          "submittedOn": "20141203",
+          "year": 2014
+        },
+        {
+          "id": 5,
+          "amendment": false,
+          "form": "city",
+          "method": "online",
+          "status": "completed",
+          "submittedOn": "20141203",
+          "year": 2014
+        },
+        {
+          "id": 6,
+          "amendment": false,
+          "form": "state",
+          "method": "online",
+          "status": "completed",
+          "submittedOn": "20141203",
+          "year": 2014
+        },
+        {
+          "id": 7,
+          "amendment": true,
+          "form": "mayor",
+          "method": "online",
+          "status": "completed",
+          "submittedOn": "20142003",
+          "year": 2014
+        }
+      ]
+    }
+  ],
+  "admin": {
+    "formSections": {
+      "city": [
+        "Directorships",
+        "Income Sources",
+        "Gifts",
+        "Creditors",
+        "Business Interest",
+        "Real Estate"
+      ],
+      "state": [
+        "Directorships",
+        "Income Sources",
+        "Gifts",
+        "Creditors",
+        "Business Interest",
+        "Bus. Int. Transferred",
+        "Real Estate"
+      ],
+      "mayor": [
+        "Directorships",
+        "Income Sources",
+        "Gifts",
+        "Family"
+      ]
+    },
+    "formRules": {
+      "sections": {
+        "city": [
+          "directorships",
+          "income-sources",
+          "gifts",
+          "creditors",
+          "business-interest",
+          "real-estate"
+        ],
+        "mayor": [
+          "directorships",
+          "income-sources",
+          "gifts",
+          "family"
+        ],
+        "state": [
+          "directorships",
+          "income-sources",
+          "gifts",
+          "creditors",
+          "business-interest",
+          "business-int-transferred",
+          "real-estate"
+        ]
+      }
+    },
+    "fillingYears": [
+      "2018",
+      "2017",
+      "2016",
+      "2015",
+      "2014",
+      "2013",
+      "2012",
+      "2010",
+      "2009",
+      "2008"
+    ],
+    "filerStatuses": [
+      "Candidate (including write-in)",
+      "Nominee",
+      "Public Official (Current)",
+      "Public Official (Former)",
+      "Public Employee (Current)",
+      "Public Employee (Former)",
+      "Solicitor"
+    ],
+    "paCounties": [
+      {
+        "label": "Adams",
+        "value": "ADAMS"
+      },
+      {
+        "label": "Allegheny",
+        "value": "ALLEGHENY"
+      },
+      {
+        "label": "Armstrong",
+        "value": "ARMSTRONG"
+      },
+      {
+        "label": "Beaver",
+        "value": "BEAVER"
+      },
+      {
+        "label": "Bedford",
+        "value": "BEDFORD"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Spouse/Life Partner",
+        "value": "SPOUSE"
+      },
+      {
+        "label": "Dependent Minor",
+        "value": "DEPENDENT"
+      }
+    ],
+    "realEstateLocations": [
+      {
+        "label": "Philadelphia Only",
+        "value": "PHILA"
+      },
+      {
+        "label": "Philadelphia and other government agency",
+        "value": "PHILAOTHER"
+      },
+      {
+        "label": "Other government agency only",
+        "value": "OTHERONLY"
+      }
+    ],
+    "filerPerson": [
+      "Filer",
+      "Spouse/Life Partner",
+      "Dependent Minor"
+    ],
+    "transactionLocations": [
+      "Philadelphia only",
+      "Philadelphia and other government agency",
+      "Other government agency only"
+    ],
+    "loanAmounts": [
+      {
+        "label": "$5000 or less",
+        "value": "LESSTHAN5000"
+      },
+      {
+        "label": "$5001 through $6500",
+        "value": "BET50006500"
+      },
+      {
+        "label": "More than $6500",
+        "value": "MORE6500"
+      }
+    ],
+    "giftTypes": [
+      {
+        "label": "Travel - hospitality, lodging, transportation",
+        "value": "travel"
+      },
+      {
+        "label": "Honoraria",
+        "value": "honoraria"
+      }
+    ],
+    "incomeTypes": [
+      {
+        "label": "Salary, Wages, Fees",
+        "value": "SALARYWAGES"
+      },
+      {
+        "label": "Income from Property or Business",
+        "value": "PROPERTYBUSINESS"
+      },
+      {
+        "label": "Gain on Investment or Property",
+        "value": "INVESTMENTGAIN"
+      }
+    ],
+    "highestPositions": [
+      "Officer",
+      "Director",
+      "Employee"
+    ],
+    "affiliationStatuses": [
+      {
+        "label": "Seeking",
+        "value": "SEEKING"
+      },
+      {
+        "label": "Held in Past",
+        "value": "HELD"
+      },
+      {
+        "label": "Currently Holding",
+        "value": "HOLDING"
+      }
+    ],
+    "states": [
+      {
+        "label": "Alabama",
+        "value": "AL"
+      },
+      {
+        "label": "Alaska",
+        "value": "AK"
+      },
+      {
+        "label": "American Samoa",
+        "value": "AS"
+      },
+      {
+        "label": "Arizona",
+        "value": "AZ"
+      }
+    ],
+    "agencies": [
+      {
+        "value": "DEQUARTERSESSIONS",
+        "label": "1st Jud Dist Clerk Qtr Session"
+      },
+      {
+        "value": "DECOURTS",
+        "label": "1st Jud Dist Courts"
+      },
+      {
+        "value": "DECOURTSORPHANS",
+        "label": "1st Jud Dist Orphans' Court"
+      },
+      {
+        "value": "DECOURTSSUPERIOR",
+        "label": "1st Jud Dist Superior Court"
+      },
+      {
+        "value": "DECOURTSSUPREME",
+        "label": "1st Jud Dist Supreme Court"
+      }
+    ]
+  }
+}
